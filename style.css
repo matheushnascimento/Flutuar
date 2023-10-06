@@ -4,11 +4,11 @@
 }
 
 body {
-  padding-top: 64px;
-
   font-family: "Open Sans", sans-serif;
 
   text-align: center;
+
+  min-height: 100vh;
 }
 
 h1 {
@@ -45,6 +45,10 @@ p strong {
   color: #3f3d56;
 }
 
+footer {
+  margin: 0;
+}
+
 footer hr {
   margin: 63px auto 16px;
   width: 391px;
@@ -59,9 +63,7 @@ a {
 }
 
 #ondas {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   margin: auto;
+  bottom: 0;
+  padding: 0;
 }
